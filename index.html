@@ -23,7 +23,9 @@
         extend: {
           colors: {
             clifford: '#da373d',
-            'primary-btn':'#179800'
+            'primary-btn':'#179800',
+            
+
           }
         }
       }
@@ -31,16 +33,18 @@
   </script>
 </head>
 <body class="font-sora">
-    <header class="w-11/12 mx-auto">
-        <nav>
-            <div class="navbar bg-base-100">
+    <header class="bg-gradient-to-b from-white to-white-1 mb-24">
+      <div class="w-11/12 mx-auto">
+        <nav class="mb-36">
+            <div class="navbar ">
                 <div class="flex-1">
                   <a class="btn btn-ghost normal-case text-4xl">
                     <img src="assets/logo-header.png" alt="Logo" class="h-8 mr-2"> 
                     
                   </a>
                 </div>
-                <div class="flex-none">
+                <div class="sm:hidden"><i class="fa-solid fa-bars "></i></div>
+                <div class="hidden md:flex">
                   <ul class="menu menu-horizontal px-1">
                     <li><a href="#">Product</a></li>
                     <li><a href="#">Services</a></li>
@@ -55,9 +59,73 @@
                 </div>
               </div>
         </nav>
+            
 
+
+    </div>
+        <!-- hero Section  -->
+         <section class="mx-auto text-center space-y-5">
+          <h1 class="text-3xl md:text-5xl lg:text-6xl font-bold text-center">Freshness <span class="text-[#179800] le">You Can</span><br>
+            <span class="text-text-[#179800] leading-tight">Count </span>On, Prices You’ll Love!</h1>
+            <p class="text-gray-500 w-5/6 mx-auto">Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day fresh produce to!</p>
+            <img src="assets/hero-vegetables.png " class="mx-auto" alt="">
+         </section>
+      </div>
     </header>
-    <main></main>
+    <main class="w-11/12 mx-auto mb-24 font-semibold">
+      <!-- Services section -->
+      <h1 class="text-[#179800] text-xl text-center my-5">Services</h1>
+      <!-- image cards -->
+       <div class="grid grid-cols-1 md:grid-cols-3 gap-8 justify-items-center ">
+        <!-- card 1  -->
+        <div class="card bg-[#EFEBE3] w-80 shadow-xl  py-5 text-center ">
+          <figure>
+            <div class="avatar">
+              <div class="w-24 rounded-full">
+                <img src="assets/service.png" />
+              </div>
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title mx-auto">24/7 Services!</h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+           
+          </div>
+        </div>
+
+              <!-- card 2  -->
+              <div class="card bg-[#EFEBE3] w-80 shadow-xl  py-5 text-center ">
+                <figure>
+                  <div class="avatar">
+                    <div class="w-24 rounded-full">
+                      <img src="assets/service.png" />
+                    </div>
+                </figure>
+                <div class="card-body">
+                  <h2 class="card-title mx-auto">24/7 Services!</h2>
+                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                 
+                </div>
+              </div>
+              
+
+                    <!-- card 3  -->
+        <div class="card bg-[#EFEBE3] w-80 shadow-xl  py-5 text-center ">
+          <figure>
+            <div class="avatar">
+              <div class="w-24 rounded-full">
+                <img src="assets/service.png" />
+              </div>
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title mx-auto">24/7 Services!</h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+           
+          </div>
+        </div>
+        
+       </div>
+
+    </main>
     <footer></footer>
 </body>
 </html>
